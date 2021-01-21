@@ -12,3 +12,14 @@ app register --type task --name outbound-task --uri file://root/apps/outbound-0.
 
 app.input=https://scdf-microservices.s3.amazonaws.com/input.csv
 app.composite-task-7.outbound-task.app.output=/root/apps/output.csv
+
+
+java -jar spring-cloud-dataflow-server-2.7.0.jar --spring.datasource.url=jdbc:mysql://localhost:3306/dataflow --spring.datasource.username=root --spring.datasource.password=roowpw --spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+
+java -jar spring-cloud-skipper-server-2.6.0.jar --spring.datasource.url=jdbc:mysql://localhost:3306/dataflow --spring.datasource.username=root --spring.datasource.password=roowpw --spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+
+
+
+
+

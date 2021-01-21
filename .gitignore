@@ -23,4 +23,11 @@
 hs_err_pid*
 .vscode/settings.json
 takara/.project
-takara/target/*
+*/target/*
+data-injection/.project
+*.project
+data-injection/target/*
+*.classpath
+*.settings*
+
+*/bin/*
