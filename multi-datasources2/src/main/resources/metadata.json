@@ -1,0 +1,23 @@
+[{
+
+		"fileName": "fileNameValue_1",
+		"tableName": "tableNameValue_1",
+		"mapping": {
+			"sourceColumnName": "file_column_1",
+			"taggetColumnName": "table_column_1",
+			"operation": ["subString", "1", "10"]
+		},
+		"delimeter": "|"
+	},
+	{
+
+		"fileName": "fileNameValue_2",
+		"tableName": "tableNameValue_2",
+		"mapping": {
+			"sourceColumnName": "file_column_2",
+			"taggetColumnName": "table_column_2",
+			"operation": ["Regex", "abc$"]
+		},
+		"delimeter": "|"
+	}
+]
